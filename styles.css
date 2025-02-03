@@ -1,0 +1,28 @@
+.header {
+  padding: 1px; /* some padding */
+  text-align: center; /* center the text */
+  background: hsl(240, 100%, 25%); /* green background */
+  color: white; /* white text color */
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden; /* Hide overflow */
+  background-color: hsl(240, 100%, 25%); /* Dark background color */
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left; /* Make sure that the links stay side-by-side */
+  display: block; /* Change the display to block, for responsive reasons (see below) */
+  color: white; /* White text color */
+  text-align: center; /* Center the text */
+  padding: 14px 20px; /* Add some padding */
+  text-decoration: none; /* Remove underline */
+}
+
+
+body {
+  font-family: calibri;
+  font-size: 120%;
+}
