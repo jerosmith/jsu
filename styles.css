@@ -1,7 +1,7 @@
 .header {
   padding: 1px; /* some padding */
   text-align: center; /* center the text */
-  background: hsl(240, 100%, 25%); /* green background */
+  background: hsl(240, 100%, 25%); /* dark blue background */
   color: white; /* white text color */
 }
 
@@ -17,12 +17,32 @@
   display: block; /* Change the display to block, for responsive reasons (see below) */
   color: white; /* White text color */
   text-align: center; /* Center the text */
-  padding: 14px 20px; /* Add some padding */
+  padding: 10px 10px; /* Add some padding */
   text-decoration: none; /* Remove underline */
+  font-size: 100%;
 }
-
 
 body {
   font-family: calibri;
-  font-size: 120%;
+  font-size: 110%;
 }
+ 
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+td {
+	 vertical-align:top
+ }
+ 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 3.8%;
+  width: 100%;
+  background-color: hsl(240, 100%, 25%);
+  color: white;
+  text-align: center;
+}
+ 
